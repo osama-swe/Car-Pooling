@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Car Pooling</string>
+    <string name="logout">Log Out</string>
+    <string name="view_trips">View Trips</string>
+    <string name="view_routes">View Available Routes</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="view_Cart">My Cart</string>
+    <string name="History">History</string>
+</resources>

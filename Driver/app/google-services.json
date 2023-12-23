@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "298829063715",
+    "firebase_url": "https://car-pooling-6aef5-default-rtdb.firebaseio.com",
+    "project_id": "car-pooling-6aef5",
+    "storage_bucket": "car-pooling-6aef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298829063715:android:2c1294e5477b35004cb396",
+        "android_client_info": {
+          "package_name": "com.example.carpooling"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDblu-tG8h4GvpICB38Dy-kHuvGgbwdKkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298829063715:android:01e1f706aa5e643b4cb396",
+        "android_client_info": {
+          "package_name": "com.example.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDblu-tG8h4GvpICB38Dy-kHuvGgbwdKkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

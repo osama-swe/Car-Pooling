@@ -1,0 +1,55 @@
+<!-- activity_add_trip.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTrip">
+
+    <EditText
+        android:id="@+id/etSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From" />
+
+    <EditText
+        android:id="@+id/etDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSource"
+        android:layout_marginTop="16dp"
+        android:hint="To" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDestination"
+        android:layout_marginTop="16dp"
+        android:hint="Date (use this format: 17 December 2023)" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDate"
+        android:layout_marginTop="16dp"
+        android:hint="Time (use this format: 7:30 AM)" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTime"
+        android:layout_marginTop="16dp"
+        android:hint="Price (e.g. 75 EGP)" />
+
+    <Button
+        android:id="@+id/btnAddTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPrice"
+        android:layout_marginTop="24dp"
+        android:text="Add Trip" />
+
+</RelativeLayout>

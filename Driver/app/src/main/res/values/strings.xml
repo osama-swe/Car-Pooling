@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Driver</string>
+    <string name="logout">Log Out</string>
+    <string name="view_trips">View My Trips</string>
+    <string name="view_routes">View Routes</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

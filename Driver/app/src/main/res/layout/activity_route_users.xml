@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RouteUsersActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Registered Riders"
+        android:id="@+id/tvRouteDetails"
+        android:textSize="32sp"
+        android:padding="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+</LinearLayout>
